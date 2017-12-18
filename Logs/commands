@@ -1,0 +1,48 @@
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/covtype.arff) -e (WindowClassificationPerformanceEvaluator -w 47000) -i 470000 -f 47000 -q 47000" > covertype-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/kddcup.arff) -e (WindowClassificationPerformanceEvaluator -w 50000) -i 500000 -f 50000 -q 50000" > kddcup-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/elecNormNew.arff) -e (WindowClassificationPerformanceEvaluator -w 4600) -i 46000 -f 4600 -q 4600" > elecNormNew-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/weather.arff) -e (WindowClassificationPerformanceEvaluator -w 1820) -i 18200 -f 1820 -q 1820" > weather-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/gaussian.arff) -e (WindowClassificationPerformanceEvaluator -w 600) -i 6000 -f 600 -q 600" > gaussian-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/UG_2C_5D.arff) -e (WindowClassificationPerformanceEvaluator -w 20000) -i 200000 -f 20000 -q 20000" > UG_2C_5D-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/FG_2C_2D.arff) -e (WindowClassificationPerformanceEvaluator -w 20000) -i 200000 -f 20000 -q 20000" > F2_2C_2D-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/rtg.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > rtg-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/rbf.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > rbf-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/hyper.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > HYPER-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/seaA.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > seaA-IGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l IGMN_NSE -s (ArffFileStream -f /home/jorge/Descargas/Datasets/seaG.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > seaG-IGMN.txt
+
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/covtype.arff) -e (WindowClassificationPerformanceEvaluator -w 47000) -i 470000 -f 47000 -q 47000" > covertype-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/kddcup.arff) -e (WindowClassificationPerformanceEvaluator -w 50000) -i 500000 -f 50000 -q 50000" > kddcup-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/elecNormNew.arff) -e (WindowClassificationPerformanceEvaluator -w 4600) -i 46000 -f 4600 -q 4600" > elecNormNew-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/weather.arff) -e (WindowClassificationPerformanceEvaluator -w 1820) -i 18200 -f 1820 -q 1820" > weather-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/gaussian.arff) -e (WindowClassificationPerformanceEvaluator -w 600) -i 6000 -f 600 -q 600" > gaussian-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/UG_2C_5D.arff) -e (WindowClassificationPerformanceEvaluator -w 20000) -i 200000 -f 20000 -q 20000" > UG_2C_5D-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/FG_2C_2D.arff) -e (WindowClassificationPerformanceEvaluator -w 20000) -i 200000 -f 20000 -q 20000" > F2_2C_2D-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/rtg.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > rtg-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/rbf.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > rbf-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/hyper.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > HYPER-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/seaA.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > seaA-stdIGMN.txt
+
+java -cp .:moa.jar:ejml-0.19.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask "EvaluatePrequentialDelayedCV -l stdIGMN -s (ArffFileStream -f /home/jorge/Descargas/Datasets/seaG.arff) -e (WindowClassificationPerformanceEvaluator -w 10000) -i 100000 -f 10000 -q 10000" > seaG-stdIGMN.txt
