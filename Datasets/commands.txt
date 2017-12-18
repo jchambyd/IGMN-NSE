@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------------------
+
+java -cp .:moa.jar -javaagent:sizeofag-1.0.0.jar moa.DoTask + "COMMAND"
+
+----------------------------------------------------------------------------------------------
+
+LIST OF COMMANDS:
+
+- SEA Datasets:
+
+WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.SEAGenerator -f 1) -d (ConceptDriftStream -s (generators.SEAGenerator -f 2) -d  (ConceptDriftStream -s (generators.SEAGenerator -f 3) -d (generators.SEAGenerator -f 4) -w 2500 -p 25000 ) -w 2500 -p 25000 ) -w 2500 -p 25000) -f seaG.arff -m 100000
+
+WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.SEAGenerator -f 1) -d (ConceptDriftStream -s (generators.SEAGenerator -f 2) -d  (ConceptDriftStream -s (generators.SEAGenerator -f 3) -d (generators.SEAGenerator -f 4) -w 1 -p 25000 ) -w 1 -p 25000 ) -w 1 -p 25000) -f seaA.arff -m 100000
+
+- HYPER Dataset:
+
+WriteStreamToARFFFile -s (generators.HyperplaneGenerator -k 10 -t .001) -f hyper.arff -m 100000
+
+- RTG Dataset
+
+WriteStreamToARFFFile -s (generators.RandomTreeGenerator -o 0 -u 10 -c 2 -d 5 -i 1 -r 1) -f rtg.arff -m 100000
+
+- RBF Dataet
+
+WriteStreamToARFFFile -s (generators.RandomRBFGeneratorDrift -c 5 -s .0001) -f rbf.arff -m 100000
+
+----------------------------------------------------------------------------------------------
+
+Normalize from MOA!!!
+
