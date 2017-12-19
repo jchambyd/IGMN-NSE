@@ -1,0 +1,6 @@
+data/static/iris.arff,  0.9576,  0.9576,  0.9946,  0.9928,  1.0000
+data/static/diabetes.arff,  0.7582,  0.7863,  0.8156,  0.8239,  0.8156
+data/static/glass.arff,  0.7852,  0.7983,  0.8056,  0.9469,  0.8254
+data/static/breastcancer.arff,  0.6500,  0.6065,  0.7294,  0.7225,  0.5996
+data/static/vehicle.arff,  0.8608,  0.8560,  0.7697,  0.9318,  0.9168
+data/static/iris.arff,  0.9576,  0.9576,  0.9946,  0.9928,  1.0000
