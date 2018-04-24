@@ -15,8 +15,8 @@ This repository presents the Incremental Gaussian Mixture Network for Non-Statio
 * MOA 2016+
 
 ### Features
-* Classification on Stationary Environments (using Weka)
-* Classification on Non-Stationary Environments (using MOA)
+* Classification in Stationary Environments (using Weka)
+* Classification in Non-Stationary Environments (using MOA)
 
 ## Authors
 * **Jorge C. Chamby-Diaz** - *Initial work* - [jchambyd](https://github.com/jchambyd)
