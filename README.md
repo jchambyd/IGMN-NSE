@@ -1,7 +1,7 @@
 # Adaptive Incremental Gaussian Mixture Network for Non-Stationtionary Environments
 
 This repository presents the Incremental Gaussian Mixture Network for Non-Stationtionary Environments
- (IGMN-NSE) proposed by Jorge C. Chamby-Diaz [(An Incremental Gaussian Mixture Network for Data Stream Classification in Non-Stationary Environments)](http://hdl.handle.net/10183/174484).
+ (IGMN-NSE) proposed by Jorge C. Chamby-Diaz [(An Incremental Gaussian Mixture Network for Data Stream Classification in Non-Stationary Environments)](http://doi.org/10.13140/RG.2.2.18510.97609). 
 
 ## Getting Started
 
