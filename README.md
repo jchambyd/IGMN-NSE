@@ -1,7 +1,7 @@
 # Adaptive Incremental Gaussian Mixture Network for Non-Stationtionary Environments
 
 This repository presents the Incremental Gaussian Mixture Network for Non-Stationtionary Environments
- (IGMN-NSE) proposed by Jorge C. Chamby-Diaz [(An Incremental Gaussian Mixture Network for Data Stream Classification in Non-Stationary Environments)](http://doi.org/10.13140/RG.2.2.18510.97609). 
+ (IGMN-NSE) proposed by Jorge C. Chamby-Diaz [(Adaptive Incremental Gaussian Mixture Network for Non-Stationary Data Stream Classification)](https://doi.org/10.1109/IJCNN.2018.8489049). 
 
 ## Getting Started
 
@@ -9,14 +9,10 @@ This repository presents the Incremental Gaussian Mixture Network for Non-Statio
 
 * JDK 6+
 * EJML 0.19+
-* GNUPlot 4.2+ (for use graphics) 
-* JavaPlot (for use graphics) 
-* Weka 3.6.7+
 * MOA 2016+
 
 ### Features
-* Classification in Stationary Environments (using Weka)
-* Classification in Non-Stationary Environments (using MOA)
+* Classification in Non-Stationary Environments (MOA)
 
 ## Authors
 * **Jorge C. Chamby-Diaz** - *Initial work* - [jchambyd](https://github.com/jchambyd)
